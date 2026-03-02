@@ -1,0 +1,33 @@
+Dataset and task selection
+Group 2: Tereza Knápková, Maria Matušisková, Dominik Kysel
+
+Selected dataset: 
+Bike Sharing (https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)
+Project track: 
+A
+Dataset description: 
+Motivation
+
+The dataset contains data from the bike rental (sharing) system. Such systems are beneficial because users can quickly access a bike when needed without buying one at full price, and the company usually takes care of the bikes (including rented ones), and customers can usually swap them whenever they want. However, to keep the system effective data mining plays an important role in providing fast, reliable, and competent service by monitoring system performance, patterns and customer behaviour.
+Dataset overview
+
+The dataset contains 2 years of data (2011-2012) from the Capital Bikeshare system (Washington, D.C., USA). Overall, it includes 17 variables across 6 columns and contains 17 379 hours and 731 days records.
+Relations in the dataset:
+
+The data can be analysed to find the correlations between seasons, weather conditions, differences between weekdays and weekends/holidays, as well as specific hours of the day and other variables. Moreover, how these factors affect the prediction of the bike rental demand.
+Analysis goal:
+Exploratory Data Analysis (EDA) & Pattern Discovery:
+
+Use exploratory data analysis (EDA) and pattern discovery to identify potentially different behavior of casual and registered users, where the idea is that we could see the different users, rent and use of the bikes at different times or see spikes at different seasons. We could also look at how environmental conditions impact bike rentals, using the weather, temperature and humidity information in the dataset. Another focus can be to look at how usage changes between seasons, months and per hour.
+Predictive Modeling (Regression):
+
+Use linear regression for predictive modeling to predict demand based on hourly or daily basis, which could also be done separately for casual and registered users. Determine importance of features in the data – find which variable/feature is more important than another.
+Clustering:
+
+With K-Means clustering, find clusters which could define low usage and high usage periods (days, months, seasons). We could also do clustering based on weather related variables, to see how weather impacts usage and which conditions have higher impact than others.
+Association Rule Mining:
+
+Find rules with association rule mining, that would allow us to know based on certain conditions that the usage will be higher or lower at a certain time, where the information of potential "downtime" can be useful.
+Anomaly Detection:
+
+With anomaly detection, find outliers where the usage unexpectedly spiked or was surprisingly low, which could be then cross-referenced to some events that have occurred during that time (storms, festivals, etc.).
